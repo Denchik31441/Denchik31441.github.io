@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*,
+::before,
+::after{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.container{
+    max-width:1240px ;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin: 0 auto;
+}
+
+.img{
+    max-width:180px ;
+    max-height: 17px;
+}
+
+.one-img{
+    width:600px ;
+    height: 300px;
+}
+
+.two-img{
+    width:370px ;
+    height: 340px;
+}
+
+
+
+.header{
+    height:90px ;
+    border-bottom: 1px solid #E6E6E6;
+    margin-bottom: 59px;
+}
+
+.link{
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.navbar{
+    padding-top: 37.5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav{
+    word-spacing: 40px;
+}
+
+.burger{
+    display: none;
+}
+.bur{
+    max-width:26px ;
+    max-height:18px ;
+}
+
+.first {
+    font-size: 10px;
+    letter-spacing: 1px;
+    line-height: 12px;
+    color: #999999;
+    margin-bottom: 18px;
+}
+.second {
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    margin-bottom: 27px;
+}
+.fird {
+    color: #666666;
+    line-height: 24px;
+    font-size: 16px;
+    margin-bottom: 28px;
+}
+.fourth {
+    font-weight: 700;
+    color: #000000;
+    letter-spacing: 1px;
+    font-size: 10px;
+    line-height: 12px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.one-img{ 
+max-width: 100%;
+height: auto;
+}
+
+.section{
+    margin-top: 50px;
+}
+
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.r{
+color: #999999;
+font-size: 10px;
+line-height: 12px;
+letter-spacing: 1px;
+text-transform: uppercase;
+margin-bottom: 18px;
+}
+
+.t{
+font-size: 20px;
+line-height: -5px;
+color: #000000;
+text-transform: uppercase;
+margin-bottom: 15.23px;
+}
+
+.y{
+font-size: 10px;
+line-height: 12px;
+letter-spacing: 1px;
+font-weight: 700;
+text-transform: uppercase;
+margin-bottom: 40px;
+}
+
+.card{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.imge{
+    max-width: 365px;
+    height: 350;
+    margin-bottom: 10px;
+}
+
+
+
+
+@media (max-width: 575.98px) { 
+    .nav{
+        display: none;
+    }
+    .burger{
+        display: block;
+    }
+    .two{
+        text-align: center;
+    }
+    .one-img{
+        margin-bottom: 30px;
+    }
+    .flex{
+        flex-wrap: wrap;
+    }
+    .wrapper{
+        justify-content: center;
+        
+    }
+
+  
+    
+  
+ }
+
+
+
+
+ @media (max-width: 767.98px) { 
+    .nav{
+        display: none;
+    }
+    .burger{
+        display: block;
+    }
+    .two{
+        text-align: center;
+        margin: 0 auto;
+    }
+    .one-img{
+        margin-bottom: 30px;
+    }
+    .flex{
+        flex-wrap: wrap;
+    }
+    .wrapper{
+        justify-content: center;
+        
+    }
+    
+  }
+ 
+
+ @media (max-width: 991.98px) { 
+    .flex{
+        justify-content: center;
+        flex-wrap: wrap;
+        
+    }
+    .two{
+        text-align: center;
+       
+    }
+    .one-img{
+        margin-bottom: 30px;
+        
+    }
+    .wrapper{
+        justify-content: center;
+    }
+   
+  }
+ 
+  @media (min-width: 992px) and (max-width: 1199.98px) { 
+    .flex{
+        column-gap: 20px;
+    }
+    .card{
+        max-width: 300px;
+    }
+    .t{
+        font-size: 15px;
+    }
+    .wrapper{
+        gap: 30px;
+        justify-content: center;
+        
+    }
+    
+   }
+
+   @media (min-width: 1200px) and (max-width: 1239px) { 
+.card{
+    max-width: 370px;
+}
+.t{
+    font-size: 15px;
+}
+.wrapper{
+    justify-content: space-between;
+}
+}
+
+
+
+.imge-t{
+    max-width: 450px;
+    height: 350;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+.dis{
+    padding-top: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+
+    .centerdiv{
+        color: #08f45a;
+        font-size: 40px;
+        text-align: center;
+        font-weight: bold;
+        padding-top:50px;
+    }
+    
